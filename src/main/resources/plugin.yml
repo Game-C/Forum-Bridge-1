@@ -67,6 +67,7 @@ permissions:
       bbb.unban: true
       bbb.ban: true
       bbb.fusername: true
+      bbb.rank: true
   bbb.sync:
     description: Allow the usage of the /sync command
     default: true
@@ -91,4 +92,6 @@ permissions:
   bbb.fusername:
     description: Allow the usage of the /fusername command
     default: op
-    
+  bbb.rank:
+    description: Allow the usage of the /frank command
+    default: op
